@@ -1,0 +1,37 @@
+{
+  "author": {
+    "name": "Josh Lee",
+    "url": "http://github.com/joshuaylee"
+  },
+  "bugs": {
+    "url": "https://github.com/joshuaylee/hanabi/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "phaser": "^3.3.0"
+  },
+  "deprecated": false,
+  "description": "Hanabi Phaser 3",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "raw-loader": "^0.5.1",
+    "socket.io": "^2.2.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "homepage": "https://github.com/joshuaylee/hanabi#readme",
+  "license": "MIT",
+  "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+  "main": "src/index.js",
+  "name": "hanabi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuaylee/hanabi.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && webpack-dev-server --port=8000"
+  },
+  "version": "1.0.9"
+}
