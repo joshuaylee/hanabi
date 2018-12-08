@@ -23,7 +23,7 @@
   "homepage": "https://github.com/joshuaylee/hanabi#readme",
   "license": "MIT",
   "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
-  "main": "src/index.js",
+  "main": "src/client/index.js",
   "name": "hanabi",
   "repository": {
     "type": "git",
